@@ -1,4 +1,4 @@
-.navi {
+.nav {
   position: fixed;
   width: 100%;
   background-color: #fcfcfc;
@@ -8,20 +8,20 @@
   border-top: 1px solid #f7f7f7;
 }
 
-.navi .navi__list {
+.nav .nav__list {
   display: flex;
   justify-content: space-between;
 }
 
-.navi i {
+.nav i {
   font-size: 22px;
 }
 
-.navi .navi__list-link {
+.nav .nav__list-link {
   position: relative;
 }
 
-.navi .navi__badge {
+.nav .nav__badge {
   position: absolute;
   top: -7px;
   right: -7px;
