@@ -34,15 +34,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-}
-
-@keyframes showNavBar {
-  from {
-    transform: translateY(80px);
-  }
-  to {
-    transform: none;
-  }
+  animation: scale 1s linear infinite;
 }
 
 .nav {
